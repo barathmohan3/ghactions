@@ -18,4 +18,4 @@ jobs:
               steps:
                 - name: Show OS
                   run: echo "This job is running on a Windows runner.!" \ 
-                       '${{github.RUNNER_OS}'
+                       '${{github.RUNNER_OS}}'
